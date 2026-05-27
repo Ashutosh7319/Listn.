@@ -1,0 +1,4080 @@
+[
+  {
+    "id": 1,
+    "title": "Paid My Dues",
+    "artist": "NF",
+    "genre": "Hip-Hop",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover1.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/1.mp3",
+    "duration": "3:45"
+  },
+  {
+    "id": 2,
+    "title": "If We Being Real",
+    "artist": "Yeat",
+    "genre": "Trap",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover2.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/2.mp3",
+    "duration": "4:05"
+  },
+  {
+    "id": 3,
+    "title": "Labon Ko",
+    "artist": "KK",
+    "genre": "Indie",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover3.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/3.mp3",
+    "duration": "4:12"
+  },
+  {
+    "id": 4,
+    "title": "Aadat",
+    "artist": "Atif Aslam",
+    "genre": "Indie",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover4-.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/4.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 5,
+    "title": "Therapy Session",
+    "artist": "NF",
+    "genre": "Hip-Hop",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover1.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/5.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 6,
+    "title": "Bheegi Bheegi",
+    "artist": "Pritam",
+    "genre": "Indie",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover5.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/6.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 7,
+    "title": "Maine Royaan",
+    "artist": "Tanvir Evan",
+    "genre": "Indie",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover6.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/7.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 8,
+    "title": "Ae dil hai mushkil",
+    "artist": "Arijit Singh",
+    "genre": "Indie",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover7.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/8.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 9,
+    "title": "HOPE",
+    "artist": "NF",
+    "genre": "Hip-Hop",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover1.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/9.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 10,
+    "title": "Cowbell Warrior",
+    "artist": "Sxmpra",
+    "genre": "Phonk",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover8.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/10.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 11,
+    "title": "Robbery",
+    "artist": "Juice WRLD",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover9.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/11.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 12,
+    "title": "Fall Off",
+    "artist": "Kr$na",
+    "genre": "Hip-Hop",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover10.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/12.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 13,
+    "title": "When I Grow Up",
+    "artist": "NF",
+    "genre": "Hip-Hop",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover1.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/13.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 14,
+    "title": "The Search",
+    "artist": "NF",
+    "genre": "Hip-Hop",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover1.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/14.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 15,
+    "title": "Untitled",
+    "artist": "Kr$na",
+    "genre": "Hip-Hop",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover10.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/15.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 16,
+    "title": "In Da Club",
+    "artist": "50 Cent",
+    "genre": "Hip-Hop",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover11.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/16.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 17,
+    "title": "DIOR",
+    "artist": "Pop Smoke",
+    "genre": "Hip-Hop",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover12.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/17.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 18,
+    "title": "Astaghfirullah",
+    "artist": "MC STAN",
+    "genre": "Hip-Hop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover13.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/18.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 19,
+    "title": "Kaam 25",
+    "artist": "Divine",
+    "genre": "Hip-Hop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover14.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/19.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 20,
+    "title": "Dandelions",
+    "artist": "Ruth B",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover15.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/20.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 21,
+    "title": "Chemtrails Over The Country Club",
+    "artist": "Lana Del Rey",
+    "genre": "Pop",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover16.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/21.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 22,
+    "title": "Perfect",
+    "artist": "Ed Sheeran",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover17.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/22.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 23,
+    "title": "Shape Of You",
+    "artist": "Ed Sheeran",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover17.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/23.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 24,
+    "title": "Despacito",
+    "artist": "Justin Beiber",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover18.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/24.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 25,
+    "title": "Baby",
+    "artist": "Justin Beiber",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover18.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/25.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 26,
+    "title": "Eenie Meenie",
+    "artist": "Justin Beiber",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover18.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/26.mp3",
+    "duration": "3:25"
+  },
+  {
+    "id": 27,
+    "title": "Love Yourself",
+    "artist": "Justin Beiber",
+    "genre": "Pop",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover18.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/27.mp3",
+    "duration": "4:33"
+  },
+  {
+    "id": 28,
+    "title": "Blue",
+    "artist": "Yung Kai",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover19.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/28.mp3",
+    "duration": "3:42"
+  },
+  {
+    "id": 29,
+    "title": "Tumi Robe Nirobe",
+    "artist": "SANAM",
+    "genre": "Rabindra Sangeet",
+    "language": "Bengali",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover20.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/29.mp3",
+    "duration": "3:23"
+  },
+  {
+    "id": 30,
+    "title": "Ajab Si",
+    "artist": "KK",
+    "genre": "Indie",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover3.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/30.mp3",
+    "duration": "4:21"
+  },
+  {
+    "id": 31,
+    "title": "Dil Ibaadat",
+    "artist": "KK",
+    "genre": "Indie",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover3.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/31.mp3",
+    "duration": "5:34"
+  },
+  {
+    "id": 32,
+    "title": "Zara Sa",
+    "artist": "KK",
+    "genre": "Indie",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover3.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/32.mp3",
+    "duration": "3:48"
+  },
+  {
+    "id": 33,
+    "title": "Hale Dil",
+    "artist": "Harshit Saxena",
+    "genre": "Indie",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover21.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/33.mp3",
+    "duration": "6:04"
+  },
+  {
+    "id": 34,
+    "title": "Alvida",
+    "artist": "KK",
+    "genre": "Indie",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover3.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/34.mp3",
+    "duration": "5:40"
+  },
+  {
+    "id": 35,
+    "title": "Beete Lamhe",
+    "artist": "KK",
+    "genre": "Indie",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover3.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/35.mp3",
+    "duration": "4:58"
+  },
+  {
+    "id": 36,
+    "title": "Khuda Jaane",
+    "artist": "KK",
+    "genre": "Indie",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover3.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/36.mp3",
+    "duration": "5:14"
+  },
+  {
+    "id": 37,
+    "title": "Piya Aaye Na",
+    "artist": "KK",
+    "genre": "Indie",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover3.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/37.mp3",
+    "duration": "4:46"
+  },
+  {
+    "id": 38,
+    "title": "Tum Hi Ho",
+    "artist": "Arijit Singh",
+    "genre": "Indie",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover7.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/38.mp3",
+    "duration": "5:10"
+  },
+  {
+    "id": 39,
+    "title": "Chahun Main Ya Na",
+    "artist": "Arijit Singh",
+    "genre": "Indie",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover7.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/39.mp3",
+    "duration": "4:01"
+  },
+  {
+    "id": 40,
+    "title": "Uska Hi Banana",
+    "artist": "Arijit Singh",
+    "genre": "Indie",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover7.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/40.mp3",
+    "duration": "5:48"
+  },
+  {
+    "id": 41,
+    "title": "Be Intehaan",
+    "artist": "Atif Aslam",
+    "genre": "Indie",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover4-.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/41.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 42,
+    "title": "Woh Lamhe Woh Baatein",
+    "artist": "Atif Aslam",
+    "genre": "Indie",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover4-.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/42.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 43,
+    "title": "Unholy",
+    "artist": "Sam Smith",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover22.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/43.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 44,
+    "title": "Falling In Love",
+    "artist": "Elvis Presley",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover23.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/44.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 45,
+    "title": "Under The Influence",
+    "artist": "Chris Brown",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover24.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/45.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 46,
+    "title": "Dirty",
+    "artist": "KSI",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover25.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/46.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 47,
+    "title": "Die With A Smile",
+    "artist": "Lady Gaga",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover26.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/47.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 48,
+    "title": "Garaj Garaj (Rock)",
+    "artist": "Shankar Ehsaan Loy",
+    "genre": "Indian Classical",
+    "moods": [
+      "Focus"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover27.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/48.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 49,
+    "title": "Ghar Aa Mahi",
+    "artist": "Shankar Ehsaan Loy",
+    "genre": "Indian Classical",
+    "moods": [
+      "Focus"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover27.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/49.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 50,
+    "title": "Hichki 2.0",
+    "artist": "Shankar Ehsaan Loy",
+    "genre": "Indie",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover27.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/50.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 51,
+    "title": "Khaamakha",
+    "artist": "Shankar Ehsaan Loy",
+    "genre": "Indie",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover27.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/51.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 52,
+    "title": "Nirmohiya",
+    "artist": "Shankar Ehsaan Loy",
+    "genre": "Indian Classical",
+    "moods": [
+      "Focus"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover27.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/52.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 53,
+    "title": "Sakhi Mori",
+    "artist": "Shankar Ehsaan Loy",
+    "genre": "Indian Classical",
+    "moods": [
+      "Focus"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover27.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/53.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 54,
+    "title": "Sur Hi Parmaatma",
+    "artist": "Shankar Ehsaan Loy",
+    "genre": "Indian Classical",
+    "moods": [
+      "Focus"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover27.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/54.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 55,
+    "title": "Uptown Funk",
+    "artist": "Bruno Mars",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover28.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/55.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 56,
+    "title": "Can't Stop The Feeling",
+    "artist": "Justin Timberlake",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover29.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/56.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 57,
+    "title": "Shut Up and Dance",
+    "artist": "WALK THE MOON",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover30.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/57.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 58,
+    "title": "Binding Lights",
+    "artist": "Weeknd",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover31.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/58.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 59,
+    "title": "Don't Start Now",
+    "artist": "Dua Lipa",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover32.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/59.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 60,
+    "title": "Runaway",
+    "artist": "AURORA",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover33.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/60.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 61,
+    "title": "Night Changes",
+    "artist": "One Direction",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover34.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/61.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 62,
+    "title": "Mirchi",
+    "artist": "Divine",
+    "genre": "Hip-Hop",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover14.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/62.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 63,
+    "title": "Punya Paap",
+    "artist": "Divine",
+    "genre": "Hip-Hop",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover14.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/63.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 64,
+    "title": "3:59 AM",
+    "artist": "Divine",
+    "genre": "Hip-Hop",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover14.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/64.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 65,
+    "title": "Satya",
+    "artist": "Divine",
+    "genre": "Hip-Hop",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover14.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/65.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 66,
+    "title": "Baazigar",
+    "artist": "Divine",
+    "genre": "Hip-Hop",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover14.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/66.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 67,
+    "title": "Kohinoor",
+    "artist": "Divine",
+    "genre": "Hip-Hop",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover14.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/67.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 68,
+    "title": "Freeverse Feast",
+    "artist": "Kr$na",
+    "genre": "Hip-Hop",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover10.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/68.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 69,
+    "title": "Saza E Maut",
+    "artist": "Kr$na",
+    "genre": "Hip-Hop",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover10.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/69.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 70,
+    "title": "Joota Japani",
+    "artist": "Kr$na",
+    "genre": "Hip-Hop",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover10.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/70.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 71,
+    "title": "La Campanella",
+    "artist": "Franz Liszt",
+    "genre": "Western Classical",
+    "moods": [
+      "Focus"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover35.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/71.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 72,
+    "title": "Fuhr Elise",
+    "artist": "Beethoven",
+    "genre": "Western Classical",
+    "moods": [
+      "Focus"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover36.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/72.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 73,
+    "title": "Summer",
+    "artist": "Vivaldi",
+    "genre": "Western Classical",
+    "moods": [
+      "Focus"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover37.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/73.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 74,
+    "title": "Winter",
+    "artist": "Vivaldi",
+    "genre": "Western Classical",
+    "moods": [
+      "Focus"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover37.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/74.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 75,
+    "title": "Amake Amar Moto",
+    "artist": "Anupam Roy",
+    "genre": "Bong",
+    "moods": [
+      "Chill"
+    ],
+    "language": "Bengali",
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover38.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/75.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 76,
+    "title": "Dhoom Again",
+    "artist": "Vishal Dadlani",
+    "genre": "Indie",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover39.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/76.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 77,
+    "title": "Dhan Te Nan",
+    "artist": "Vishal Dadlani",
+    "genre": "Indie",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover39.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/77.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 78,
+    "title": "Udta Punjab",
+    "artist": "Vishal Dadlani",
+    "genre": "Indie",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover39.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/78.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 79,
+    "title": "Mere Dholna 3.0",
+    "artist": "Sonu Nigam",
+    "genre": "Indie",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover40.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/79.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 80,
+    "title": "Abhi Mujh Mein",
+    "artist": "Sonu Nigam",
+    "genre": "Indie",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover40.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/80.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 81,
+    "title": "Aayat",
+    "artist": "Arijit Singh",
+    "genre": "Indie",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover7.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/81.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 82,
+    "title": "Laal Ishq",
+    "artist": "Arijit Singh",
+    "genre": "Indie",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover7.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/82.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 83,
+    "title": "Piya Tu Piya",
+    "artist": "Arijit Singh",
+    "genre": "Indie",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover7.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/83.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 84,
+    "title": "Phir Le Aya Dil",
+    "artist": "Arijit Singh",
+    "genre": "Indie",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover7.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/84.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 85,
+    "title": "Janam Janam",
+    "artist": "Arijit Singh",
+    "genre": "Indie",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover7.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/85.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 86,
+    "title": "Channa Mereya",
+    "artist": "Arijit Singh",
+    "genre": "Indie",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover7.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/86.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 87,
+    "title": "Main Dhoondne Ko",
+    "artist": "Arijit Singh",
+    "genre": "Indie",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover7.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/87.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 88,
+    "title": "Dekha Hazaro Dafaa",
+    "artist": "Arijit Singh",
+    "genre": "Indie",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover7.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/88.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 89,
+    "title": "Raaz Aankhein Teri",
+    "artist": "Arijit Singh",
+    "genre": "Indie",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover7.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/89.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 90,
+    "title": "Ilahi",
+    "artist": "Arijit Singh",
+    "genre": "Indie",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover7.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/90.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 91,
+    "title": "Sanson Ko",
+    "artist": "Arijit Singh",
+    "genre": "Indie",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover7.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/91.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 92,
+    "title": "Humara Adhuri Kahani",
+    "artist": "Arijit Singh",
+    "genre": "Indie",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover7.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/92.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 93,
+    "title": "Hai Dil Ye Mera",
+    "artist": "Arijit Singh",
+    "genre": "Indie",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover7.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/93.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 94,
+    "title": "Binte Dil",
+    "artist": "Arijit Singh",
+    "genre": "Indie",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover7.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/94.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 95,
+    "title": "Khamoshiyan",
+    "artist": "Arijit Singh",
+    "genre": "Indie",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover7.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/95.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 96,
+    "title": "Bojhena Shey Bojhena",
+    "artist": "Arijit Singh",
+    "genre": "Bong",
+    "language": "Bengali",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover7.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/96.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 97,
+    "title": "Baundule Ghuri",
+    "artist": "Arijit Singh",
+    "genre": "Bong",
+    "language": "Bengali",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover7.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/97.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 98,
+    "title": "Moh Moh Ke",
+    "artist": "Papon",
+    "genre": "Indie",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover41.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/98.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 99,
+    "title": "Mujhe Kaise",
+    "artist": "Papon",
+    "genre": "Indie",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover41.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/99.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 100,
+    "title": "Humnava",
+    "artist": "Papon",
+    "genre": "Indie",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover41.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/100.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 101,
+    "title": "Kaun Mera",
+    "artist": "Papon",
+    "genre": "Indie",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover41.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/101.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 102,
+    "title": "Main Agar Kahoon",
+    "artist": "Sonu Nigam",
+    "genre": "Indie",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover40.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/102.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 103,
+    "title": "Zoobi Dobi",
+    "artist": "Sonu Nigam",
+    "genre": "Indie",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover40.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/103.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 104,
+    "title": "Main Hoon Na",
+    "artist": "Sonu Nigam",
+    "genre": "Indie",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover40.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/104.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 105,
+    "title": "Bhagwan Hai Kaha",
+    "artist": "Sonu Nigam",
+    "genre": "Indie",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover40.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/105.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 106,
+    "title": "Abhi Na Jao",
+    "artist": "MD Rafi",
+    "genre": "Indie",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover42.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/106.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 107,
+    "title": "Piyu Bole",
+    "artist": "Sonu Nigam",
+    "genre": "Indie",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover40.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/107.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 108,
+    "title": "Sapphire",
+    "artist": "Ed Sheeran",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover17.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/108.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 109,
+    "title": "Closer",
+    "artist": "One Direction",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover43.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/109.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 110,
+    "title": "Homicide Ft. Eminem",
+    "artist": "Logic",
+    "genre": "Hip-Hop",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover44.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/110.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 111,
+    "title": "Jee Le Zara",
+    "artist": "Vishal Dadlani",
+    "genre": "Indie",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover39.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/111.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 112,
+    "title": "Photograph",
+    "artist": "Ed Sheeran",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover17.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/112.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 113,
+    "title": "Mo Bamba",
+    "artist": "Sheck Wes",
+    "genre": "Hip-Hop",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover45.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/113.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 114,
+    "title": "Badiye Dao",
+    "artist": "Anupam Roy",
+    "genre": "Bong",
+    "language": "Bengali",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover38.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/114.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 115,
+    "title": "Ekbar Bol",
+    "artist": "Anupam Roy",
+    "genre": "Bong",
+    "language": "Bengali",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover38.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/115.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 116,
+    "title": "Boba Tunnel",
+    "artist": "Anupam Roy",
+    "genre": "Bong",
+    "language": "Bengali",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover38.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/116.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 117,
+    "title": "Bosonto Ese Gache",
+    "artist": "Anupam Roy",
+    "genre": "Bong",
+    "language": "Bengali",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover38.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/117.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 118,
+    "title": "Phaka Frame",
+    "artist": "Anupam Roy",
+    "genre": "Bong",
+    "language": "Bengali",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover38.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/118.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 119,
+    "title": "Benche Thakar Gaan",
+    "artist": "Anupam Roy",
+    "genre": "Bong",
+    "language": "Bengali",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover38.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/119.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 120,
+    "title": "Ekbar Bol",
+    "artist": "Anupam Roy",
+    "genre": "Bong",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover38.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/120.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 121,
+    "title": "Amar Mote",
+    "artist": "Anupam Roy",
+    "language": "Bengali",
+    "genre": "Bong",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover38.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/121.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 122,
+    "title": "Bhenge Chure Ghorbari",
+    "artist": "Anupam Roy",
+    "genre": "Bong",
+    "language": "Bengali",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover38.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/122.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 123,
+    "title": "Jawl Phoring 2.0",
+    "artist": "Anupam Roy",
+    "genre": "Bong",
+    "language": "Bengali",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover38.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/123.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 124,
+    "title": "Jane Wo Kaise Log",
+    "artist": "Hemanta Kumar",
+    "genre": "Indie",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover46.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/124.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 125,
+    "title": "Beqarar Karke Hume",
+    "artist": "Hemanta Kumar",
+    "genre": "Indie",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover46.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/125.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 126,
+    "title": "Tumi Robe Nirobe",
+    "artist": "Hemanta Kumar",
+    "genre": "Bong",
+    "language": "Bengali",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover46.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/126.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 127,
+    "title": "Leaders Of History Cypher",
+    "artist": "Rustage",
+    "genre": "Character Rap",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover47.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/127.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 128,
+    "title": "Tournament Of Power Cypher",
+    "artist": "Daddyphatsnaps",
+    "genre": "Character Rap",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover48.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/128.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 129,
+    "title": "Dragon Ball Villain Cypher",
+    "artist": "GameboyJones",
+    "genre": "Character Rap",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover49.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/129.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 130,
+    "title": "Goku Level Up",
+    "artist": "Daddyphatsnaps",
+    "genre": "Character Rap",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover48.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/130.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 131,
+    "title": "Super",
+    "artist": "Rustage",
+    "genre": "Character Rap",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover47.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/131.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 132,
+    "title": "Shonen Villain Cipher",
+    "artist": "Rustage",
+    "genre": "Character Rap",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover47.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/132.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 133,
+    "title": "Domain Expansion",
+    "artist": "GameboyJones",
+    "genre": "Character Rap",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover49.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/133.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 134,
+    "title": "Straight To The Top",
+    "artist": "GameboyJones",
+    "genre": "Character Rap",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover49.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/134.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 135,
+    "title": "Gohan 'Ultimate'",
+    "artist": "Daddyphatsnaps",
+    "genre": "Character Rap",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover48.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/135.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 136,
+    "title": "Goku Black & Zamasu",
+    "artist": "Rustage",
+    "genre": "Character Rap",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover47.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/136.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 137,
+    "title": "Levi Rap",
+    "artist": "Daddyphatsnaps",
+    "genre": "Character Rap",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover48.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/137.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 138,
+    "title": "Prem Amar",
+    "artist": "Jeet Ganguly",
+    "genre": "Bong",
+    "language": "Bengali",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover48.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/138.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 139,
+    "title": "Bojhena Se Bojhena",
+    "artist": "Jeet Ganguly",
+    "genre": "Bong",
+    "language": "Bengali",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover48.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/139.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 140,
+    "title": "Ridin Clean",
+    "artist": "DJ Paul",
+    "genre": "Phonk",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover48.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/140.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 141,
+    "title": "Lil Bunty",
+    "artist": "Kr$na",
+    "genre": "Hip-Hop",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover10.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/141.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 142,
+    "title": "Machayenge 4",
+    "artist": "Kr$na",
+    "genre": "Hip-Hop",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover10.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/142.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 143,
+    "title": "HUSN",
+    "artist": "Anuv Jain",
+    "genre": "Indie",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover50.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/143.mp3",
+    "duration": "4:00"
+  },
+  {
+    "id": 144,
+    "title": "Jo Tum Mere Ho",
+    "artist": "Anuv Jain",
+    "genre": "Indie",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover50.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/144.mp3",
+    "duration": "4:00"
+  },
+  {
+    "id": 145,
+    "title": "Gul",
+    "artist": "Anuv Jain",
+    "genre": "Indie",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover50.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/145.mp3",
+    "duration": "4:00"
+  },
+  {
+    "id": 146,
+    "title": "Baarishein",
+    "artist": "Anuv Jain",
+    "genre": "Indie",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover50.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/146.mp3",
+    "duration": "4:00"
+  },
+  {
+    "id": 147,
+    "title": "Hola Amigo",
+    "artist": "Kr$na",
+    "genre": "Hip-Hop",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover10.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/147.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 148,
+    "title": "When I Grow Up (Ft. Eminem)",
+    "artist": "Eminem",
+    "genre": "Hip-Hop",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover51.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/148.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 149,
+    "title": "Abhi Na Jao (Concert)",
+    "artist": "Various",
+    "genre": "Indian Classical",
+    "moods": [
+      "Focus"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover52.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/149.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 150,
+    "title": "Bhar Do Jholi",
+    "artist": "Adnan Sami",
+    "genre": "Qawwali",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover53.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/150.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 151,
+    "title": "Baundule Ghuri (Reprise)",
+    "artist": "Anupam Roy",
+    "language": "Bengali",
+    "genre": "Bong",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover38.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/151.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 152,
+    "title": "Everyday Regular Normal",
+    "artist": "John Lajole",
+    "genre": "Hip-Hop",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover51.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/152.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 153,
+    "title": "We Rollin",
+    "artist": "Shubh",
+    "genre": "Hip-Hop",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover54.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/153.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 154,
+    "title": "Dhundhala",
+    "artist": "Tailwinder",
+    "genre": "Hip-Hop",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/profile2.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/154.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 155,
+    "title": "Duniya Makkar",
+    "artist": "Karma",
+    "genre": "Hip-Hop",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover55.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/155.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 156,
+    "title": "Wushang Clan",
+    "artist": "Arpit Bala",
+    "genre": "Hip-Hop",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover56.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/156.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 157,
+    "title": "Yeda Yung",
+    "artist": "MC STAN",
+    "genre": "Hip-Hop",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover57.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/157.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 158,
+    "title": "Yede Ki Chadar",
+    "artist": "MC STAN",
+    "genre": "Hip-Hop",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover57.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/158.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 159,
+    "title": "Brown Munde",
+    "artist": "Ap Dhillon",
+    "genre": "Hip-Hop",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover54.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/159.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 160,
+    "title": "No Cap",
+    "artist": "Kr$na",
+    "genre": "Hip-Hop",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover10.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/160.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 161,
+    "title": "Los Voltage",
+    "artist": "Phonk",
+    "genre": "Phonk",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/profile3.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/161.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 162,
+    "title": "Sequencia Malefica 1.0",
+    "artist": "Phonk",
+    "genre": "Phonk",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/profile3.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/162.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 163,
+    "title": "Montagem Coral",
+    "artist": "Phonk",
+    "genre": "Phonk",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/profile3.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/163.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 164,
+    "title": "Whine in Brazil",
+    "artist": "Phonk",
+    "genre": "Phonk",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/profile3.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/164.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 165,
+    "title": "Sweater Weather",
+    "artist": "The Neighbourhood",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover58.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/165.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 166,
+    "title": "Montagem Ladrao",
+    "artist": "Phonk",
+    "genre": "Phonk",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/profile3.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/166.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 167,
+    "title": "Living Hell",
+    "artist": "Bella Poarch",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover59.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/167.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 168,
+    "title": "Balanca - Slowed",
+    "artist": "Phonk",
+    "genre": "Phonk",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/profile3.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/168.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 169,
+    "title": "Montagem Tomado",
+    "artist": "Phonk",
+    "genre": "Phonk",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/profile2.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/169.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 170,
+    "title": "Petrunko Funk",
+    "artist": "Phonk",
+    "genre": "Phonk",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/profile3.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/170.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 171,
+    "title": "Suzume",
+    "artist": "RADWIMPS",
+    "genre": "Pop",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover60.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/171.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 172,
+    "title": "Go Shiina",
+    "artist": "RADWIMPS",
+    "genre": "Pop",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover60.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/172.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 173,
+    "title": "Aku Sayang X Sprinter",
+    "artist": "Phonk",
+    "genre": "Phonk",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/profile3.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/173.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 174,
+    "title": "Kompa Passion",
+    "artist": "Phonk",
+    "genre": "Phonk",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/profile3.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/174.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 175,
+    "title": "Sahiba",
+    "artist": "Aditya Rikhari",
+    "genre": "Indie",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover61.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/175.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 176,
+    "title": "Motagem Vozes Profundas",
+    "artist": "Phonk",
+    "genre": "Phonk",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/profile2.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/176.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 177,
+    "title": "Finding Her",
+    "artist": "Kushagra",
+    "genre": "Indie",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover62.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/177.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 178,
+    "title": "Slay",
+    "artist": "Phonk",
+    "genre": "Phonk",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/profile2.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/178.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 179,
+    "title": "Jujalarium Funk",
+    "artist": "Phonk",
+    "genre": "Phonk",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/profile3.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/179.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 180,
+    "title": "Funk of Galactico",
+    "artist": "Phonk",
+    "genre": "Phonk",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/profile3.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/180.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 181,
+    "title": "Tokyo Drift Funk",
+    "artist": "Phonk",
+    "genre": "Phonk",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/profile2.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/181.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 182,
+    "title": "Kyon",
+    "artist": "Papon",
+    "genre": "Indie",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover41.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/182.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 183,
+    "title": "New Jeans Jersey",
+    "artist": "Phonk",
+    "genre": "Phonk",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/profile2.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/183.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 184,
+    "title": "Galti Se Mistake",
+    "artist": "Arijit Singh",
+    "genre": "Indie",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover7.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/184.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 185,
+    "title": "Love Story",
+    "artist": "Indila",
+    "genre": "Pop",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover63.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/185.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 186,
+    "title": "Faded",
+    "artist": "Alan Walker",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover64.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/186.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 187,
+    "title": "Golden",
+    "artist": "Huntrix",
+    "genre": "Pop",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover65.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/187.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 188,
+    "title": "Criminal",
+    "artist": "Brttney Spears",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover66.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/188.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 189,
+    "title": "Heart Attack",
+    "artist": "Demi Lovato",
+    "genre": "Pop",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover67.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/189.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 190,
+    "title": "Snowman",
+    "artist": "Sia",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover68.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/190.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 191,
+    "title": "Love Nwanititi",
+    "artist": "CKay",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover69.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/191.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 192,
+    "title": "Shinunoga E Wa",
+    "artist": "Fujji Kaze",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover70.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/192.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 193,
+    "title": "That's So True",
+    "artist": "Gracie Abrams",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover71.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/193.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 194,
+    "title": "Line Without A Hook",
+    "artist": "Rickey Montogomery",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover72.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/194.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 195,
+    "title": "Wannabe Yours",
+    "artist": "Arctic Monkeys",
+    "genre": "Pop",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover73.png",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/195.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 196,
+    "title": "One of the Girls",
+    "artist": "Weeknd",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover31.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/196.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 197,
+    "title": "Bad Desire",
+    "artist": "ENHYPHEN",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover74.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/197.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 198,
+    "title": "People",
+    "artist": "Libianca",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover75.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/198.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 199,
+    "title": "Lily",
+    "artist": "Alan Walker",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover64.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/199.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 200,
+    "title": "Espresso",
+    "artist": "Sabrina Carpenter",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover76.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/200.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 201,
+    "title": "Pretty Little Baby",
+    "artist": "Connie Francis",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover77.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/201.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 202,
+    "title": "Moral of the Story",
+    "artist": "Ashe",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover78.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/202.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 203,
+    "title": "Yad",
+    "artist": "Vanna Rainelle",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover79.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/203.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 204,
+    "title": "Favourite",
+    "artist": "Isabel LaRosa",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover80.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/204.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 205,
+    "title": "Levitating",
+    "artist": "Dua Lipa",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover32.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/205.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 206,
+    "title": "Eyes Don't Lie",
+    "artist": "Isabel LaRosa",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover80.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/206.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 207,
+    "title": "Attention",
+    "artist": "Charlie Puth",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover81.png",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/207.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 208,
+    "title": "Bloodline",
+    "artist": "Ariana Grande",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover82.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/208.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 209,
+    "title": "Dancin",
+    "artist": "Aaron Smith",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover83.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/209.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 210,
+    "title": "I Wanna Be Your Slave",
+    "artist": "Maneskin",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover84.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/210.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 211,
+    "title": "Broken Angel",
+    "artist": "Arash",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover85.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/211.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 212,
+    "title": "Danda Dudung",
+    "artist": "Shilajit Majumder",
+    "genre": "Bong",
+    "language": "Bengali",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover87.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/212.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 213,
+    "title": "Montagem Bandido",
+    "artist": "Phonk",
+    "genre": "Phonk",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/profile3.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/213.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 214,
+    "title": "Vem No Pique",
+    "artist": "Phonk",
+    "genre": "Phonk",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/profile2.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/214.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 215,
+    "title": "Clima Lindo",
+    "artist": "Phonk",
+    "genre": "Phonk",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/profile3.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/215.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 216,
+    "title": "Ritmo De Verao",
+    "artist": "Phonk",
+    "genre": "Phonk",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/profile3.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/216.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 217,
+    "title": "Vem Vem",
+    "artist": "Phonk",
+    "genre": "Phonk",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/profile3.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/217.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 218,
+    "title": "I Lose My Breath",
+    "artist": "Charlie Puth",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover81.png",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/218.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 219,
+    "title": "Confess Your Love",
+    "artist": "Jiandro",
+    "genre": "Phonk",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover86.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/219.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 220,
+    "title": "Senorita",
+    "artist": "Shawn Mendes",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover88.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/220.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 221,
+    "title": "Devil In Disguise",
+    "artist": "Marino",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover89.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/221.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 222,
+    "title": "Bumble Bee",
+    "artist": "Bambee",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover90.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/222.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 223,
+    "title": "Bite Me",
+    "artist": "ENHYPHEN",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover74.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/223.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 224,
+    "title": "Night Dancer",
+    "artist": "IMase",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover91.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/224.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 225,
+    "title": "Some",
+    "artist": "Bolbbalgan4",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover92.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/225.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 226,
+    "title": "Love you 3000",
+    "artist": "Stephanie Poetri",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover93.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/226.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 227,
+    "title": "Hayat Sasirtir",
+    "artist": "Aydilge",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover94.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/227.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 228,
+    "title": "Fever",
+    "artist": "Dua Lipa",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover32.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/228.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 229,
+    "title": "Funk Do Bounce",
+    "artist": "Phonk",
+    "genre": "Phonk",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/profile3.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/229.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 230,
+    "title": "Bounce funk",
+    "artist": "Phonk",
+    "genre": "Phonk",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/profile2.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/230.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 231,
+    "title": "Myysterious Mose Funk",
+    "artist": "Phonk",
+    "genre": "Phonk",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/profile3.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/231.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 232,
+    "title": "Belong To Me Funk",
+    "artist": "Phonk",
+    "genre": "Phonk",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/profile2.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/232.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 233,
+    "title": "Montagem Supersonic",
+    "artist": "Phonk",
+    "genre": "Phonk",
+    "moods": [
+      "Party"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/profile3.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/233.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 234,
+    "title": "Something Just Like This",
+    "artist": "Chainsmokers",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover95.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/234.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 235,
+    "title": "Hymn For The Weekend",
+    "artist": "Cold Play",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover96.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/235.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 236,
+    "title": "Fate Of Ophilea",
+    "artist": "Taylor Swift",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover97.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/236.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 237,
+    "title": "Diamonds",
+    "artist": "Rihanna",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover98.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/237.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 238,
+    "title": "Counting Stars",
+    "artist": "One Republic",
+    "genre": "Pop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover99.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/238.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 239,
+    "title": "No Excuses",
+    "artist": "NF",
+    "genre": "Hip-Hop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover1.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/239.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 240,
+    "title": "Intro",
+    "artist": "NF",
+    "genre": "Hip-Hop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover1.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/240.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 241,
+    "title": "Mansion",
+    "artist": "NF",
+    "genre": "Hip-Hop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover1.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/241.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 242,
+    "title": "Wake Up",
+    "artist": "NF",
+    "genre": "Hip-Hop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover1.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/242.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 243,
+    "title": "Notepad",
+    "artist": "NF",
+    "genre": "Hip-Hop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover1.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/243.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 244,
+    "title": "Intro 2",
+    "artist": "NF",
+    "genre": "Hip-Hop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover1.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/244.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 245,
+    "title": "Real",
+    "artist": "NF",
+    "genre": "Hip-Hop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover1.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/245.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 246,
+    "title": "Oh Lord",
+    "artist": "NF",
+    "genre": "Hip-Hop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover1.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/246.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 247,
+    "title": "Grindin'",
+    "artist": "NF",
+    "genre": "Hip-Hop",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover1.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/247.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 248,
+    "title": "Unke Andaz-E-Karam",
+    "artist": "Nusrat Fateh Ali Khan",
+    "genre": "Qawwali",
+    "moods": [
+      "Focus"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover101.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/248.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 249,
+    "title": "Aro Ekbar Cholo Phire Jai",
+    "artist": "Fossils",
+    "genre": "Bong",
+    "language": "Bengali",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover100.png",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/249.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 250,
+    "title": "Tumhe Dillagi",
+    "artist": "Nusrat Fateh Ali Khan",
+    "genre": "Qawwali",
+    "moods": [
+      "Focus"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover101.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/250.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 251,
+    "title": "Sanson Ki Mala Pe ",
+    "artist": "Nusrat Fateh Ali Khan",
+    "genre": "Qawwali",
+    "moods": [
+      "Focus"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover101.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/251.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 252,
+    "title": "Kali Kali Zulfon Ke",
+    "artist": "Nusrat Fateh Ali Khan",
+    "genre": "Qawwali",
+    "moods": [
+      "Focus"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover101.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/252.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 253,
+    "title": "Ye Jo Halka Halka",
+    "artist": "Nusrat Fateh Ali Khan",
+    "genre": "Qawwali",
+    "moods": [
+      "Focus"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover101.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/253.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 254,
+    "title": "Jisko Jo Bhi Milta Hai",
+    "artist": "Baayan",
+    "genre": "Indie",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/sad.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/254.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 255,
+    "title": "Teri Deewani",
+    "artist": "Kailash Kher",
+    "genre": "Indie",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover102.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/255.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 256,
+    "title": "Chaap Tilak",
+    "artist": "Rahat Fateh Ali Khan",
+    "genre": "Indie",
+    "moods": [
+      "Focus"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover103.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/256.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 257,
+    "title": "Choo Lo",
+    "artist": "The Local Train",
+    "genre": "Indie",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover104.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/257.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 258,
+    "title": "Aoge Tum Kabhi",
+    "artist": "The Local Train",
+    "genre": "Indie",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover104.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/258.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 259,
+    "title": "Moho",
+    "artist": "Aftermath",
+    "genre": "Bong",
+    "language": "Bengali",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover105.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/259.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 260,
+    "title": "Bisakto Manush",
+    "artist": "Fossils",
+    "genre": "Bong",
+    "language": "Bengali",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover100.png",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/260.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 261,
+    "title": "Bare Bare Ar Asha Hobena ",
+    "artist": "Fakira",
+    "genre": "Bong",
+    "language": "Bengali",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover106.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/261.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 262,
+    "title": "Ekla Ghor",
+    "artist": "Fossils",
+    "genre": "Bong",
+    "language": "Bengali",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover100.png",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/262.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 263,
+    "title": "Firiye Dao",
+    "artist": "Miles",
+    "genre": "Bong",
+    "language": "Bengali",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover107.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/263.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 264,
+    "title": "Ranjana Ami Ar",
+    "artist": "Anjan Dutta",
+    "genre": "Bong",
+    "language": "Bengali",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover108.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/264.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 265,
+    "title": "Bela Bose",
+    "artist": "Anjan Dutta",
+    "genre": "Bong",
+    "language": "Bengali",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover108.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/265.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 266,
+    "title": "Ekhon Onek Raat",
+    "artist": "Anupam Roy",
+    "genre": "Bong",
+    "language": "Bengali",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover38.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/266.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 267,
+    "title": "Give Me Some Sunshine",
+    "artist": "Shantanu Moitro",
+    "genre": "Indie",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover109.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/267.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 268,
+    "title": "Ei Srabon",
+    "artist": "Fossils",
+    "genre": "Bong",
+    "language": "Bengali",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover100.png",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/268.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 269,
+    "title": "Hansnuhana",
+    "artist": "Fossils",
+    "genre": "Bong",
+    "language": "Bengali",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover100.png",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/269.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 270,
+    "title": "Nemesis",
+    "artist": "Fossils",
+    "genre": "Bong",
+    "language": "Bengali",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover100.png",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/270.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 271,
+    "title": "Acid",
+    "artist": "Fossils",
+    "genre": "Bong",
+    "language": "Bengali",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover100.png",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/271.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 272,
+    "title": "Phire Cholo",
+    "artist": "Fossils",
+    "genre": "Bong",
+    "language": "Bengali",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover100.png",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/272.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 273,
+    "title": "Bhoot Ar Tilottoma",
+    "artist": "Fossils",
+    "genre": "Bong",
+    "language": "Bengali",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover100.png",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/273.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 274,
+    "title": "Ghreena",
+    "artist": "Fossils",
+    "genre": "Bong",
+    "language": "Bengali",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover100.png",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/274.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 275,
+    "title": "Shono Amra Ki Shobai",
+    "artist": "Fossils",
+    "genre": "Bong",
+    "language": "Bengali",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover100.png",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/275.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 276,
+    "title": "Kyano Korle",
+    "artist": "Fossils",
+    "genre": "Bong",
+    "language": "Bengali",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover100.png",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/276.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 277,
+    "title": "Jawl Phoring",
+    "artist": "Shilajit Majumder",
+    "genre": "Bong",
+    "language": "Bengali",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover111.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/277.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 278,
+    "title": "Bondhu Chol",
+    "artist": "Anupam Roy",
+    "genre": "Bong",
+    "language": "Bengali",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover38.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/278.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 279,
+    "title": "Tomake",
+    "artist": "Shreya Ghosal",
+    "genre": "Bong",
+    "language": "Bengali",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover112.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/279.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 280,
+    "title": "Long Distance Love",
+    "artist": "Ankan X Afrin",
+    "genre": "Bong",
+    "language": "Bengali",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover113.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/280.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 281,
+    "title": "Classroom",
+    "artist": "Anupam Roy",
+    "genre": "Bong",
+    "language": "Bengali",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover38.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/281.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 282,
+    "title": "Michael Vidyasagar",
+    "artist": "Hooliganism",
+    "genre": "Bong",
+    "language": "Bengali",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover114.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/282.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 283,
+    "title": "Melar Gaan",
+    "artist": "Hooliganism",
+    "genre": "Bong",
+    "language": "Bengali",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover114.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/283.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 284,
+    "title": "Prithibita Bhalo Lokeder Noy",
+    "artist": "Hooliganism",
+    "genre": "Bong",
+    "language": "Bengali",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover114.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/284.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 285,
+    "title": "Bodlabe Gotipath",
+    "artist": "Hooliganism",
+    "genre": "Bong",
+    "language": "Bengali",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover114.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/285.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 286,
+    "title": "Ami Shudu Khujechi Amay",
+    "artist": "Taalpatar Shepai",
+    "genre": "Bong",
+    "language": "Bengali",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover115.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/286.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 287,
+    "title": "Moshader Chumu",
+    "artist": "Taalpatar Shepai",
+    "genre": "Bong",
+    "language": "Bengali",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover115.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/287.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 288,
+    "title": "Ami Chey Chey Dekhi",
+    "artist": "Taalpatar Shepai",
+    "genre": "Bong",
+    "language": "Bengali",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover115.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/288.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 289,
+    "title": "O Doyal Bichar Koro",
+    "artist": "Taalpatar Shepai",
+    "genre": "Bong",
+    "language": "Bengali",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover115.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/289.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 290,
+    "title": "Sonar Kathir",
+    "artist": "Taalpatar Shepai",
+    "genre": "Bong",
+    "language": "Bengali",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover115.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/290.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 291,
+    "title": "Nakshikanthar Rajar Konna",
+    "artist": "Taalpatar Shepai",
+    "genre": "Bong",
+    "language": "Bengali",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover115.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/291.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 292,
+    "title": "Modhhorate",
+    "artist": "Taalpatar Shepai",
+    "genre": "Bong",
+    "language": "Bengali",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover115.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/292.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 293,
+    "title": "Ami Dekhechi",
+    "artist": "Backdoor Caravan",
+    "genre": "Bong",
+    "language": "Bengali",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover116.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/293.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 294,
+    "title": "Kisi Ke Muskurahato",
+    "artist": "Mukesh",
+    "genre": "Indie",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover110.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/294.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 295,
+    "title": "Neshar Bhoje",
+    "artist": "Popeye Bangladesh",
+    "genre": "Bong",
+    "language": "Bengali",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover117.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/295.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 296,
+    "title": "Conclusion",
+    "artist": "Porinita",
+    "genre": "Bong",
+    "language": "Bengali",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover118.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/296.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 297,
+    "title": "Prostab",
+    "artist": "Odd Signature",
+    "genre": "Bong",
+    "language": "Bengali",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover119.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/297.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 298,
+    "title": "Ghum",
+    "artist": "Odd Signature",
+    "genre": "Bong",
+    "language": "Bengali",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover120.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/298.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 299,
+    "title": "Jodi Abar",
+    "artist": "Angel Noor",
+    "genre": "Bong",
+    "language": "Bengali",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover121.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/299.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 300,
+    "title": "O Re Piya",
+    "artist": "Rahat Fateh Ali Khan",
+    "genre": "Indie",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover103.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/300.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 301,
+    "title": "Tere Mast Mast Do Nain",
+    "artist": "Rahat Fateh Ali Khan",
+    "genre": "Indie",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover103.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/301.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 302,
+    "title": "Tum Jo Aye",
+    "artist": "Rahat Fateh Ali Khan",
+    "genre": "Indie",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover103.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/302.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 303,
+    "title": "Jag Soona Soona",
+    "artist": "Rahat Fateh Ali Khan",
+    "genre": "Indie",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover103.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/303.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 304,
+    "title": "Zaroori Tha",
+    "artist": "Rahat Fateh Ali Khan",
+    "genre": "Indie",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover103.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/304.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 305,
+    "title": "Mere Rashke Qamar",
+    "artist": "Nusrat Fateh Ali Khan",
+    "genre": "Qawwali",
+    "moods": [
+      "Focus"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover101.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/305.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 306,
+    "title": "Naina",
+    "artist": "Rahat Fateh Ali Khan",
+    "genre": "Indie",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover103.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/306.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 307,
+    "title": "Sanu Ek Pal Chain",
+    "artist": "Nusrat Fateh Ali Khan",
+    "genre": "Qawwali",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover101.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/307.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 308,
+    "title": "Afreen Afreen",
+    "artist": "Rahat Fateh Ali Khan",
+    "genre": "Indie",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover103.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/308.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 309,
+    "title": "Dil To Bachha Hai",
+    "artist": "Rahat Fateh Ali Khan",
+    "genre": "Indie",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover103.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/309.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 310,
+    "title": "Masakali",
+    "artist": "Mohit Chauhan",
+    "genre": "Indie",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover122.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/310.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 311,
+    "title": "In Dino",
+    "artist": "Pritam",
+    "genre": "Indie",
+    "moods": [
+      "Sad"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover5.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/311.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 312,
+    "title": "Tera Hone Lagoon",
+    "artist": "Atif Aslam",
+    "genre": "Indie",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover4-.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/312.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 313,
+    "title": "Tu Jaane Na",
+    "artist": "Atif Aslam",
+    "genre": "Indie",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover4-.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/313.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 314,
+    "title": "Piya O Re Piya",
+    "artist": "Atif Aslam",
+    "genre": "Indie",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover4-.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/314.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 315,
+    "title": "Main Rang Sharbaton Ka",
+    "artist": "Atif Aslam",
+    "genre": "Indie",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover4-.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/315.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 316,
+    "title": "Bakhuda Tum Hi",
+    "artist": "Atif Aslam",
+    "genre": "Indie",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover4-.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/316.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 317,
+    "title": "Jeene Laga Hoon",
+    "artist": "Atif Aslam",
+    "genre": "Indie",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover4-.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/317.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 318,
+    "title": "Pehli Nazar Main",
+    "artist": "Atif Aslam",
+    "genre": "Indie",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover4-.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/318.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 319,
+    "title": "Tere Liye",
+    "artist": "Atif Aslam",
+    "genre": "Indie",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover4-.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/319.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 320,
+    "title": "Tere Bin",
+    "artist": "Atif Aslam",
+    "genre": "Indie",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover4-.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/320.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 321,
+    "title": "Tera Naam Doon",
+    "artist": "Atif Aslam",
+    "genre": "Indie",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover4-.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/321.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 322,
+    "title": "Rang Jo Lagyo",
+    "artist": "Atif Aslam",
+    "genre": "Indie",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover4-.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/322.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 323,
+    "title": "Teri Jhuki Nazar",
+    "artist": "Shafqat Amanat Ali",
+    "genre": "Indie",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover123.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/323.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 324,
+    "title": "Dildara",
+    "artist": "Shafqat Amanat Ali",
+    "genre": "Indie",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover123.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/324.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 325,
+    "title": "Ka Karoon Sajani",
+    "artist": "Pt Ajoy Chakrabarty",
+    "genre": "Indian Classical",
+    "moods": [
+      "Focus"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover124.webp",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/325.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 326,
+    "title": "Yaad Piya Ki Aye",
+    "artist": "Pt Ajoy Chakrabarty",
+    "genre": "Indian Classical",
+    "moods": [
+      "Focus"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover124.webp",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/326.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 327,
+    "title": "Virah",
+    "artist": "Shankar Ehsaan Loy",
+    "genre": "Indian Classical",
+    "moods": [
+      "Focus"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover27.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/327.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 328,
+    "title": "Lab Par Aye",
+    "artist": "Shankar Ehsaan Loy",
+    "genre": "Indian Classical",
+    "moods": [
+      "Focus"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover27.jpeg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/328.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 329,
+    "title": "Sakal Ban",
+    "artist": "Sanjay Leela Bhansali",
+    "genre": "Indian Classical",
+    "moods": [
+      "Focus"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover125.webp",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/329.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 330,
+    "title": "Masoom Dil Hai Mera",
+    "artist": "Sanjay Leela Bhansali",
+    "genre": "Indian Classical",
+    "moods": [
+      "Focus"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover125.webp",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/330.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 331,
+    "title": "Behti Hawa Sa Tha Wo",
+    "artist": "Shaan",
+    "genre": "Indie",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover126.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/331.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 332,
+    "title": "Chand Sifarish",
+    "artist": "Shaan",
+    "genre": "Indie",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover126.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/332.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 333,
+    "title": "O Mere Dil Ke Chain",
+    "artist": "Kishore Kumar",
+    "genre": "Indie",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover127.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/333.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 334,
+    "title": "O Saathi Re",
+    "artist": "Kishore Kumar",
+    "genre": "Indie",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover127.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/334.mp3",
+    "duration": "4:17"
+  },
+  {
+    "id": 335,
+    "title": "Rimjhim Gire Sawan",
+    "artist": "Kishore Kumar",
+    "genre": "Indie",
+    "moods": [
+      "Chill"
+    ],
+    "cover": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/covers/cover127.jpg",
+    "src": "https://pub-1b96594a1b3a4cc69455b1fe0d138c1d.r2.dev/audio/335.mp3",
+    "duration": "4:17"
+  }
+]
