@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { usePlayer } from '../context/PlayerContext';
 import SongList from '../components/SongList';
 import { searchSongs } from '../utils/api';
-import { Loader, ArrowLeft } from 'lucide-react';
+import { classicQueries, hindiQueries, bengaliQueries, classicalQueries, rapQueries, englishQueries, chillQueries, sadQueries, partyQueries, focusQueries } from '../utils/playlists';
+import { Loader, ArrowLeft, TrendingUp, Film } from 'lucide-react';
 
 export default function Home() {
   const { allSongs, playSong } = usePlayer();
@@ -30,27 +31,28 @@ export default function Home() {
 
     // Fetch live trending data from JioSaavn API
     Promise.all([
-      searchSongs('Trending Hits 2025', 12),
-      searchSongs('Bollywood Hits', 12)
+      searchSongs('Latest Bengali Songs 2025', 12),
+      searchSongs('Latest Hindi Songs 2025', 12)
     ]).then(([trendingData, bollywoodData]) => {
       setTrending(trendingData);
       setBollywood(bollywoodData);
       setLiveLoading(false);
     }).catch(() => setLiveLoading(false));
 
-    // Fetch cover images for cards
+    // Fetch cover images for cards using a random track from their curated playlists
+    const getRandom = (arr) => arr && arr.length > 0 ? arr[Math.floor(Math.random() * arr.length)] : '';
+    
     const coverQueries = {
-      chill: 'Lofi Chill',
-      sad: 'Arijit Singh sad',
-      party: 'Badshah party',
-      focus: 'Study music',
-      rap: 'Eminem',
-      pop: 'Ed Sheeran',
-      indie: 'Prateek Kuhad',
-      bengali: 'Arijit Singh Bengali',
-      phonk: 'Phonk drift',
-      classical: 'Ravi Shankar sitar',
-      bollywood: 'Kesariya'
+      chill: getRandom(chillQueries),
+      sad: getRandom(sadQueries),
+      party: getRandom(partyQueries),
+      focus: getRandom(focusQueries),
+      rap: getRandom(rapQueries),
+      classics: getRandom(classicQueries),
+      english: getRandom(englishQueries),
+      bengali: getRandom(bengaliQueries),
+      classical: getRandom(classicalQueries),
+      hindi: getRandom(hindiQueries)
     };
 
     Object.entries(coverQueries).forEach(([id, q]) => {
@@ -68,60 +70,96 @@ export default function Home() {
       id: 'chill',
       label: 'Chill',
       subtitle: 'Lofi & Laid-back Vibes',
-      query: 'lofi chill relaxing',
-      localKeywords: ['Chill'],
+      queries: chillQueries,
+      excludeLocal: true,
       gradient: 'linear-gradient(135deg, #667eea55, #764ba255)'
     },
     {
       id: 'sad',
       label: 'Sad',
       subtitle: 'Heartbreak & Emotions',
-      query: 'sad heartbreak emotional songs',
-      localKeywords: ['Sad'],
+      queries: sadQueries,
+      excludeLocal: true,
       gradient: 'linear-gradient(135deg, #3a7bd555, #00d2ff55)'
     },
     {
       id: 'party',
       label: 'Party',
       subtitle: 'Dance Floor Bangers',
-      query: 'party dance club hits',
-      localKeywords: ['Party'],
+      queries: partyQueries,
+      excludeLocal: true,
       gradient: 'linear-gradient(135deg, #f093fb55, #f5576c55)'
     },
     {
       id: 'focus',
       label: 'Focus',
       subtitle: 'Deep Work & Study',
-      query: 'instrumental focus study concentration',
-      localKeywords: ['Focus'],
+      queries: focusQueries,
+      excludeLocal: true,
       gradient: 'linear-gradient(135deg, #4facfe55, #00f2fe55)'
     }
   ];
 
   const categories = [
-    { id: 'rap', label: 'Rap / Hip-Hop', subtitle: 'Bars & Beats', query: 'Hip Hop Rap latest', localKeywords: ['Hip-Hop', 'Trap', 'Character Rap'] },
-    { id: 'pop', label: 'Pop', subtitle: 'Chart Toppers', query: 'Pop Hits English', localKeywords: ['Pop'] },
-    { id: 'indie', label: 'Indie', subtitle: 'Hidden Gems', query: 'Indie music Hindi English', localKeywords: ['Indie'] },
-    { id: 'bengali', label: 'Bengali', subtitle: 'Bangla Beats', query: 'Bengali songs popular', localKeywords: ['Bong', 'Rabindra Sangeet'] },
-    { id: 'phonk', label: 'Phonk', subtitle: 'Bass & Drift', query: 'Phonk drift bass', localKeywords: ['Phonk'] },
-    { id: 'classical', label: 'Classical', subtitle: 'Timeless Ragas', query: 'Indian Classical raag', localKeywords: ['Indian Classical', 'Western Classical'] },
-    { id: 'bollywood', label: 'Bollywood', subtitle: 'Hindi Cinema', query: 'Bollywood songs latest 2025', localKeywords: ['Bollywood', 'Hindi'] }
+    { id: 'rap', label: 'Desi Hip Hop', subtitle: 'Bars & Beats', queries: rapQueries, excludeLocal: true },
+    { id: 'classics', label: 'Old Classics', subtitle: "80's & 90's Bollywood", queries: classicQueries, excludeLocal: true },
+    { id: 'english', label: 'English Songs', subtitle: 'Global Hits', queries: englishQueries, language: 'English' },
+    { id: 'bengali', label: 'Bengali', subtitle: 'Bangla Beats', queries: bengaliQueries, excludeLocal: true },
+    { id: 'classical', label: 'Classical', subtitle: 'Timeless Ragas', queries: classicalQueries, excludeLocal: true },
+    { id: 'hindi', label: 'Hindi Songs', subtitle: 'Latest & Classics', queries: hindiQueries, excludeLocal: true }
   ];
 
   const handleCategoryClick = async (cat) => {
     setCategoryLoading(true);
     setSelectedCategory({ ...cat, songs: [] });
 
-    // Fetch 20 from API
-    const apiSongs = await searchSongs(cat.query, 20);
+    const apiSongs = [];
+    const apiSeenTitle = new Set();
 
-    // Filter local songs by genre/mood keywords
-    const localKeywords = cat.localKeywords || [];
-    const localFiltered = allSongs.filter(s => {
-      const genreMatch = localKeywords.some(k => s.genre?.includes(k));
-      const moodMatch = s.moods && s.moods.some(m => localKeywords.includes(m));
-      return genreMatch || moodMatch;
-    });
+    if (cat.queries) {
+      // Pick 50 random queries from the given list
+      const shuffled = [...cat.queries].sort(() => 0.5 - Math.random());
+      const selectedQueries = shuffled.slice(0, 50);
+      
+      const fetchPromises = selectedQueries.map(q => 
+        searchSongs(q, 1).then(res => res[0]).catch(() => null)
+      );
+      const results = await Promise.all(fetchPromises);
+      
+      for (const s of results) {
+        if (!s) continue;
+        const baseTitle = s.title.replace(/\s*[\(\[].*?[\)\]]\s*/g, '').toLowerCase().trim();
+        if (!apiSeenTitle.has(baseTitle)) {
+          apiSeenTitle.add(baseTitle);
+          apiSongs.push(s);
+        }
+      }
+    } else {
+      // Fetch a larger pool from API to account for duplicates
+      const rawApiSongs = await searchSongs(cat.query, 50);
+
+      for (const s of rawApiSongs) {
+        if (apiSongs.length >= 15) break; // Keep only 15 unique songs
+        // Strip out (From "Movie") or [Remix] to improve deduplication
+        const baseTitle = s.title.replace(/\s*[\(\[].*?[\)\]]\s*/g, '').toLowerCase().trim();
+        if (!apiSeenTitle.has(baseTitle)) {
+          apiSeenTitle.add(baseTitle);
+          apiSongs.push(s);
+        }
+      }
+    }
+
+    // Filter local songs by genre/mood keywords or language
+    let localFiltered = [];
+    if (!cat.excludeLocal) {
+      const localKeywords = cat.localKeywords || [];
+      localFiltered = allSongs.filter(s => {
+        const genreMatch = localKeywords.some(k => s.genre?.includes(k));
+        const moodMatch = s.moods && s.moods.some(m => localKeywords.includes(m));
+        const languageMatch = cat.language && s.language === cat.language;
+        return genreMatch || moodMatch || languageMatch;
+      });
+    }
 
     // Merge: API songs first, then local songs (deduplicate by title+artist)
     const seen = new Set(apiSongs.map(s => `${s.title.toLowerCase()}-${s.artist.toLowerCase()}`));
@@ -208,7 +246,7 @@ export default function Home() {
       {/* Live Trending from JioSaavn */}
       {!liveLoading && trending.length > 0 && (
         <section style={{ marginBottom: '3rem' }}>
-          <h3>🔥 Trending Now</h3>
+          <h3><TrendingUp size={20} style={{ marginRight: '0.5rem', verticalAlign: 'text-bottom' }} /> Trending Bengali</h3>
           <div className="horizontal-scroll">
             {trending.map((song, index) => (
               <div key={song.id} className="card" onClick={() => playSong(song, trending, index)}>
@@ -223,7 +261,7 @@ export default function Home() {
 
       {!liveLoading && bollywood.length > 0 && (
         <section style={{ marginBottom: '3rem' }}>
-          <h3>🎬 Bollywood Hits</h3>
+          <h3><Film size={20} style={{ marginRight: '0.5rem', verticalAlign: 'text-bottom' }} /> Trending Hindi</h3>
           <div className="horizontal-scroll">
             {bollywood.map((song, index) => (
               <div key={song.id} className="card" onClick={() => playSong(song, bollywood, index)}>
@@ -263,7 +301,7 @@ export default function Home() {
       {/* Recommended from local library */}
       {recommendedSongs.length > 0 && (
         <section style={{ marginBottom: '3rem' }}>
-          <h3>From Your Library</h3>
+          <h3>From the creators Playlist</h3>
           <div className="horizontal-scroll">
             {recommendedSongs.map((song, index) => (
               <div key={song.id || index} className="card" onClick={() => playSong(song, recommendedSongs, index)}>

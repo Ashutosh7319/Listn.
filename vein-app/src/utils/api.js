@@ -1,5 +1,14 @@
 const API_BASE = 'https://listn-api.onrender.com/api';
 
+function decodeHtmlEntity(str) {
+  if (!str) return '';
+  return str.replace(/&quot;/g, '"')
+            .replace(/&amp;/g, '&')
+            .replace(/&#039;/g, "'")
+            .replace(/&lt;/g, '<')
+            .replace(/&gt;/g, '>');
+}
+
 /**
  * Maps a JioSaavn API song object into the Listn. player format.
  */
@@ -14,11 +23,11 @@ function mapSong(song) {
 
   // Combine primary artist names
   const primaryArtists = song.artists?.primary || [];
-  const artist = primaryArtists.map(a => a.name).join(', ') || 'Unknown Artist';
+  const artist = primaryArtists.map(a => decodeHtmlEntity(a.name)).join(', ') || 'Unknown Artist';
 
   return {
     id: song.id,
-    title: song.name,
+    title: decodeHtmlEntity(song.name),
     artist,
     cover,
     src,

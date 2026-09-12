@@ -1,30 +1,41 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { NavLink, useLocation } from 'react-router-dom';
 import { Home, Search, Library, Users, PlusCircle } from 'lucide-react';
 
 export default function BottomNav() {
+  const location = useLocation();
+  const [activeIndex, setActiveIndex] = useState(0);
+  
+  const navItems = [
+    { path: '/', icon: <Home />, label: 'Home' },
+    { path: '/search', icon: <Search />, label: 'Search' },
+    { path: '/library', icon: <Library />, label: 'Library' },
+    { path: '/artists', icon: <Users />, label: 'Artists' },
+    { path: '/create', icon: <PlusCircle />, label: 'Create' },
+  ];
+
+  useEffect(() => {
+    const index = navItems.findIndex(item => item.path === location.pathname);
+    if (index !== -1) setActiveIndex(index);
+  }, [location.pathname]);
+
   return (
     <nav className="bottom-nav glass">
-      <NavLink to="/" className={({ isActive }) => `nav-item ${isActive ? 'active' : ''}`} end>
-        <Home />
-        <span>Home</span>
-      </NavLink>
-      <NavLink to="/search" className={({ isActive }) => `nav-item ${isActive ? 'active' : ''}`}>
-        <Search />
-        <span>Search</span>
-      </NavLink>
-      <NavLink to="/library" className={({ isActive }) => `nav-item ${isActive ? 'active' : ''}`}>
-        <Library />
-        <span>Library</span>
-      </NavLink>
-      <NavLink to="/artists" className={({ isActive }) => `nav-item ${isActive ? 'active' : ''}`}>
-        <Users />
-        <span>Artists</span>
-      </NavLink>
-      <NavLink to="/create" className={({ isActive }) => `nav-item ${isActive ? 'active' : ''}`}>
-        <PlusCircle />
-        <span>Create</span>
-      </NavLink>
+      <div 
+        className="nav-indicator" 
+        style={{ transform: `translateX(${activeIndex * 100}%)` }} 
+      />
+      {navItems.map((item) => (
+        <NavLink 
+          key={item.path}
+          to={item.path} 
+          className={({ isActive }) => `nav-item ${isActive ? 'active' : ''}`}
+          end={item.path === '/'}
+        >
+          {item.icon}
+          <span>{item.label}</span>
+        </NavLink>
+      ))}
     </nav>
   );
 }

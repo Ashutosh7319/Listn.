@@ -167,7 +167,6 @@ function App() {
       <header className="app-header" style={{ padding: '1.5rem' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem' }}>
           <img src="/Listn.png" alt="Logo" style={{ width: '48px', height: '48px', borderRadius: '8px' }} />
-          <h1 className="app-title" style={{ margin: 0 }}>Listn.</h1>
         </div>
         <div style={{ display: 'flex', gap: '0.5rem' }}>
           <button 

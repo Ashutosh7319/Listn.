@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 
 :root {
   --bg-color: #ffffff;
@@ -31,12 +31,12 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "San Francisco", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: var(--bg-color);
   color: var(--text-color);
   transition: background-color 0.3s ease, color 0.3s ease;
   overflow-x: hidden;
-  padding-bottom: 140px; /* Space for mini player + nav */
+  padding-bottom: 150px; /* Space for mini player + nav */
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -55,10 +55,15 @@ a {
 
 /* Glassmorphism helpers */
 .glass {
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  background-color: var(--nav-bg);
-  border-top: 1px solid var(--border-color);
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.dark .glass {
+  background: rgba(30, 30, 30, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 /* Typography */
@@ -172,18 +177,41 @@ p {
 /* Bottom Nav */
 .bottom-nav {
   position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 65px;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 400px;
+  height: 70px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   z-index: 100;
-  padding-bottom: env(safe-area-inset-bottom);
+  border-radius: 35px;
+  padding: 0;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+}
+
+.dark .bottom-nav {
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.nav-indicator {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  width: 20%;
+  height: 80%;
+  background: var(--text-color);
+  opacity: 0.1;
+  border-radius: 25px;
+  transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+  z-index: 0;
 }
 
 .nav-item {
+  position: relative;
+  z-index: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -191,8 +219,8 @@ p {
   flex: 1;
   height: 100%;
   color: #888;
-  transition: color 0.2s;
-  font-size: 0.7rem;
+  transition: color 0.3s ease, transform 0.2s ease;
+  font-size: 0.65rem;
   gap: 4px;
 }
 
@@ -203,6 +231,7 @@ p {
 
 .nav-item.active {
   color: var(--text-color);
+  transform: scale(1.05);
 }
 
 .nav-item:hover {
@@ -212,7 +241,7 @@ p {
 /* Mini Player */
 .mini-player {
   position: fixed;
-  bottom: 65px; /* Above nav */
+  bottom: 100px; /* Above nav */
   left: 1rem;
   right: 1rem;
   height: 60px;
@@ -311,7 +340,7 @@ p {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 100dvh;
   background-color: var(--bg-color);
   z-index: 200;
   transform: translateY(100%);
@@ -319,6 +348,8 @@ p {
   display: flex;
   flex-direction: column;
   padding: 2rem 1.5rem;
+  padding-bottom: max(2.5rem, env(safe-area-inset-bottom));
+  overflow: hidden;
 }
 
 .full-player.open {
@@ -333,16 +364,18 @@ p {
 }
 
 .full-cover-container {
-  flex: 1;
+  flex: 1 1 auto;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 2rem;
+  min-height: 0;
 }
 
 .full-cover {
   width: 100%;
   max-width: 350px;
+  max-height: 100%;
   aspect-ratio: 1;
   object-fit: cover;
   border-radius: 12px;
@@ -373,6 +406,7 @@ p {
   justify-content: space-between;
   align-items: center;
   margin-top: 2rem;
+  margin-bottom: 1rem;
   padding: 0 1rem;
 }
 
@@ -408,18 +442,32 @@ p {
   display: flex;
   align-items: center;
   padding: 0.75rem;
-  border-radius: 8px;
-  transition: background-color 0.2s;
+  border-radius: 12px;
+  transition: background-color 0.2s, transform 0.2s;
   cursor: pointer;
-  border-bottom: 1px solid var(--border-color);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  margin-bottom: 0.5rem;
+}
+
+.dark .list-item {
+  background: rgba(30, 30, 30, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 .list-item:hover {
-  background-color: var(--card-hover);
+  background: rgba(255, 255, 255, 0.6);
+  transform: translateY(-2px);
+}
+
+.dark .list-item:hover {
+  background: rgba(50, 50, 50, 0.6);
 }
 
 .list-item:last-child {
-  border-bottom: none;
+  /* optional, kept for compatibility if needed */
 }
 
 .list-cover {
