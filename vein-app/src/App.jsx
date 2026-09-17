@@ -188,7 +188,7 @@ function App() {
             {profilePic ? (
               <img src={profilePic} alt="Profile" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
             ) : (
-              <User size={24} />
+              <User size={24} color="var(--accent-color)" />
             )}
           </button>
           <button 
@@ -196,7 +196,7 @@ function App() {
             onClick={() => setIsDark(!isDark)}
             aria-label="Toggle theme"
           >
-            {isDark ? <Sun size={24} /> : <Moon size={24} />}
+            {isDark ? <Sun size={24} color="var(--accent-color)" /> : <Moon size={24} color="var(--accent-color)" />}
           </button>
         </div>
       </header>

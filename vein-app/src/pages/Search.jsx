@@ -11,6 +11,18 @@ export default function Search() {
   const [isSearching, setIsSearching] = useState(false);
   const [hasSearched, setHasSearched] = useState(false);
 
+  const quickSearchTags = ['Arijit Singh', 'Shreya Ghoshal', 'Bollywood', 'Classical', 'Bengali', 'Krsna'];
+  const [quickCovers, setQuickCovers] = useState({});
+
+  useEffect(() => {
+    quickSearchTags.forEach(async (tag) => {
+      const res = await searchSongs(tag, 1);
+      if (res && res[0]) {
+        setQuickCovers(prev => ({ ...prev, [tag]: res[0].cover }));
+      }
+    });
+  }, []);
+
   // Debounced API search
   useEffect(() => {
     if (!query.trim()) {
@@ -88,8 +100,13 @@ export default function Search() {
         <section>
           <h3>Quick Search</h3>
           <div className="grid">
-            {['Arijit Singh', 'Drake', 'Bollywood', 'Bengali', 'Phonk', 'Rap'].map(tag => (
+            {quickSearchTags.map(tag => (
               <div key={tag} className="card" onClick={() => setQuery(tag)}>
+                {quickCovers[tag] ? (
+                  <img src={quickCovers[tag]} alt={tag} />
+                ) : (
+                  <div style={{ width: '100%', aspectRatio: '1', backgroundColor: 'var(--border-color)', borderRadius: '8px', marginBottom: '0.75rem' }}></div>
+                )}
                 <div className="card-title">{tag}</div>
               </div>
             ))}

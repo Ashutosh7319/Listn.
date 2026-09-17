@@ -19,6 +19,7 @@ export default function FullPlayer({ isOpen, onClose }) {
 
   return (
     <div className={`full-player ${isOpen ? 'open' : ''}`}>
+      <div className="drag-indicator"></div>
       <div className="full-header">
         <button onClick={onClose} className="control-btn">
           <ChevronDown size={28} />

@@ -178,7 +178,7 @@ export default function Home() {
     return (
       <div className="container">
         <button onClick={() => setSelectedCategory(null)} style={{ marginBottom: '1rem', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-          <ArrowLeft size={18} /> Back
+          <ArrowLeft size={18} color="var(--accent-color)" /> Back
         </button>
         <h2 style={{ marginBottom: '0.25rem' }}>{selectedCategory.label}</h2>
         {selectedCategory.subtitle && (
@@ -246,7 +246,7 @@ export default function Home() {
       {/* Live Trending from JioSaavn */}
       {!liveLoading && trending.length > 0 && (
         <section style={{ marginBottom: '3rem' }}>
-          <h3><TrendingUp size={20} style={{ marginRight: '0.5rem', verticalAlign: 'text-bottom' }} /> Trending Bengali</h3>
+          <h3><TrendingUp size={20} color="var(--accent-color)" style={{ marginRight: '0.5rem', verticalAlign: 'text-bottom' }} /> Trending Bengali</h3>
           <div className="horizontal-scroll">
             {trending.map((song, index) => (
               <div key={song.id} className="card" onClick={() => playSong(song, trending, index)}>
@@ -261,7 +261,7 @@ export default function Home() {
 
       {!liveLoading && bollywood.length > 0 && (
         <section style={{ marginBottom: '3rem' }}>
-          <h3><Film size={20} style={{ marginRight: '0.5rem', verticalAlign: 'text-bottom' }} /> Trending Hindi</h3>
+          <h3><Film size={20} color="var(--accent-color)" style={{ marginRight: '0.5rem', verticalAlign: 'text-bottom' }} /> Trending Hindi</h3>
           <div className="horizontal-scroll">
             {bollywood.map((song, index) => (
               <div key={song.id} className="card" onClick={() => playSong(song, bollywood, index)}>
@@ -331,6 +331,10 @@ export default function Home() {
           ))}
         </div>
       </section>
+
+      <div style={{ textAlign: 'center', marginTop: '4rem', marginBottom: '2rem', fontSize: '0.85rem', color: '#888', letterSpacing: '0.5px', fontFamily: '-apple-system, BlinkMacSystemFont, "San Francisco", "Helvetica Neue", Helvetica, Arial, sans-serif' }}>
+        Created by <a href="https://priyanshu-s3jh.onrender.com/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent-color)', fontWeight: '600', textDecoration: 'none' }}>Priyanshu Saha</a>
+      </div>
     </div>
   );
 }
