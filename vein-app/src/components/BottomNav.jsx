@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { NavLink, useLocation, useNavigate } from 'react-router-dom';
+import { NavLink, useLocation, useNavigate, useSearchParams } from 'react-router-dom';
 import { Home, Search, Library, Users, PlusCircle } from 'lucide-react';
 
 export default function BottomNav() {
@@ -8,6 +8,8 @@ export default function BottomNav() {
   const [isShrunk, setIsShrunk] = useState(false);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const navigate = useNavigate();
+  const [searchParams] = useSearchParams();
+  const queryParam = searchParams.get('q') || '';
   
   const navItems = [
     { path: '/', icon: <Home />, label: 'Home' },
@@ -54,9 +56,12 @@ export default function BottomNav() {
     }
   };
 
-  const handleSearchSubmit = (e) => {
-    if (e.key === 'Enter') {
-      navigate(`/search?q=${encodeURIComponent(e.target.value)}`);
+  const handleSearchChange = (e) => {
+    const val = e.target.value;
+    if (location.pathname === '/search') {
+      navigate(`/search?q=${encodeURIComponent(val)}`, { replace: true });
+    } else {
+      navigate(`/search?q=${encodeURIComponent(val)}`);
     }
   };
 
@@ -93,9 +98,10 @@ export default function BottomNav() {
         {isSearchOpen ? (
           <input 
             type="text" 
-            placeholder="Search..." 
+            placeholder="Search any song, artist..." 
             className="floating-search-input"
-            onKeyDown={handleSearchSubmit}
+            value={queryParam}
+            onChange={handleSearchChange}
             autoFocus
           />
         ) : (

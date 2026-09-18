@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useSearchParams } from 'react-router-dom';
 import { usePlayer } from '../context/PlayerContext';
 import { Search as SearchIcon, Loader } from 'lucide-react';
 import SongList from '../components/SongList';
@@ -7,8 +7,9 @@ import { searchSongs } from '../utils/api';
 
 export default function Search() {
   const navigate = useNavigate();
+  const [searchParams] = useSearchParams();
+  const query = searchParams.get('q') || '';
   const { allSongs } = usePlayer();
-  const [query, setQuery] = useState('');
   const [apiResults, setApiResults] = useState([]);
   const [isSearching, setIsSearching] = useState(false);
   const [hasSearched, setHasSearched] = useState(false);
@@ -60,19 +61,6 @@ export default function Search() {
   return (
     <div className="container">
       <h2 style={{ marginBottom: '1.5rem' }}>Search</h2>
-      <div style={{ marginBottom: '2rem' }}>
-        <div style={{ position: 'relative' }}>
-          <SearchIcon style={{ position: 'absolute', left: '1rem', top: '50%', transform: 'translateY(-50%)', color: '#888' }} size={20} />
-          <input
-            type="text"
-            className="input-field"
-            placeholder="Search any song, artist..."
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-            style={{ paddingLeft: '3rem', marginBottom: 0 }}
-          />
-        </div>
-      </div>
 
       {isSearching && (
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.5rem', color: '#888', padding: '2rem 0' }}>

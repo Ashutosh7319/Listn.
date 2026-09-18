@@ -305,7 +305,9 @@ p {
 .floating-search-container.expanded {
   width: calc(100% - 110px);
   max-width: 400px;
-  border-radius: 20px;
+  height: 50px;
+  bottom: 30px;
+  border-radius: 25px;
   padding: 0 1rem;
   justify-content: flex-start;
 }
