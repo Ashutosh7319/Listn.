@@ -1,17 +1,24 @@
 import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { usePlayer } from '../context/PlayerContext';
 import { Search as SearchIcon, Loader } from 'lucide-react';
 import SongList from '../components/SongList';
 import { searchSongs } from '../utils/api';
 
 export default function Search() {
+  const navigate = useNavigate();
   const { allSongs } = usePlayer();
   const [query, setQuery] = useState('');
   const [apiResults, setApiResults] = useState([]);
   const [isSearching, setIsSearching] = useState(false);
   const [hasSearched, setHasSearched] = useState(false);
 
-  const quickSearchTags = ['Arijit Singh', 'Shreya Ghoshal', 'Bollywood', 'Classical', 'Bengali', 'Krsna'];
+  const quickSearchTags = [
+    'Bollywood', 'Desi Hip Hop', 'Arijit Singh', 'Shreya Ghoshal', 
+    'Punjabi Hits', 'Classical', 'Lofi Chill', 'Workout',
+    'Bengali', 'Krsna', 'Retro 90s', 'Indie Pop',
+    'Sufi', 'Devotional', 'Romantic', 'Party Anthems'
+  ];
   const [quickCovers, setQuickCovers] = useState({});
 
   useEffect(() => {
@@ -98,18 +105,54 @@ export default function Search() {
 
       {!query && (
         <section>
-          <h3>Quick Search</h3>
-          <div className="grid">
-            {quickSearchTags.map(tag => (
-              <div key={tag} className="card" onClick={() => setQuery(tag)}>
-                {quickCovers[tag] ? (
-                  <img src={quickCovers[tag]} alt={tag} />
-                ) : (
-                  <div style={{ width: '100%', aspectRatio: '1', backgroundColor: 'var(--border-color)', borderRadius: '8px', marginBottom: '0.75rem' }}></div>
-                )}
-                <div className="card-title">{tag}</div>
-              </div>
-            ))}
+          <h3>Browse Categories</h3>
+          <div className="grid" style={{ gridTemplateColumns: 'repeat(2, 1fr)' }}>
+            {quickSearchTags.map((tag, idx) => {
+              // Generate some random but consistent solid colors for backgrounds
+              const colors = ['#ff2d55', '#4facfe', '#34c759', '#ff9500', '#af52de', '#ffcc00'];
+              const bgColor = colors[idx % colors.length];
+
+              return (
+                <div 
+                  key={tag} 
+                  className="card" 
+                  onClick={() => navigate(`/category/${tag.toLowerCase()}`)}
+                  style={{
+                    backgroundColor: bgColor,
+                    backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 100%)`,
+                    minHeight: '100px',
+                    padding: '1rem',
+                    position: 'relative',
+                    overflow: 'hidden',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    justifyContent: 'flex-end',
+                    alignItems: 'flex-start'
+                  }}
+                >
+                  {quickCovers[tag] && (
+                    <img 
+                      src={quickCovers[tag]} 
+                      alt={tag} 
+                      style={{ 
+                        position: 'absolute', 
+                        right: '-20px', 
+                        bottom: '-10px', 
+                        width: '80px', 
+                        height: '80px', 
+                        transform: 'rotate(20deg)', 
+                        boxShadow: '0 4px 10px rgba(0,0,0,0.3)',
+                        borderRadius: '4px',
+                        marginBottom: 0
+                      }} 
+                    />
+                  )}
+                  <div className="card-title" style={{ color: '#fff', fontSize: '1.1rem', zIndex: 1, textShadow: '0 1px 4px rgba(0,0,0,0.4)' }}>
+                    {tag}
+                  </div>
+                </div>
+              );
+            })}
           </div>
         </section>
       )}

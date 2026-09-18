@@ -4,9 +4,9 @@
   --border-color: #e0e0e0;
   --card-bg: #f9f9f9;
   --card-hover: #f1f1f1;
-  --accent-color: #ff2d55;
+  --accent-color: #ff4757;
   --accent-text: #ffffff;
-  --nav-bg: rgba(255, 255, 255, 0.15);
+  --nav-bg: transparent;
   --player-bg: #ffffff;
 }
 
@@ -16,9 +16,9 @@
   --border-color: #333333;
   --card-bg: #111111;
   --card-hover: #1a1a1a;
-  --accent-color: #ff2d55;
+  --accent-color: #ff4757;
   --accent-text: #ffffff;
-  --nav-bg: rgba(10, 10, 10, 0.15);
+  --nav-bg: transparent;
   --player-bg: #111111;
 }
 
@@ -127,6 +127,62 @@ p {
   scroll-snap-align: start;
 }
 
+/* Grids for Category Hubs */
+.horizontal-grid-scroll {
+  display: flex;
+  overflow-x: auto;
+  gap: 1rem;
+  padding-bottom: 1rem;
+  scroll-snap-type: x mandatory;
+}
+
+.grid-col {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  min-width: 300px;
+  max-width: 320px;
+  scroll-snap-align: start;
+}
+
+.large-card {
+  min-width: 280px !important;
+  width: 280px !important;
+  max-width: 280px !important;
+}
+
+.list-card {
+  flex-direction: row !important;
+  align-items: center !important;
+  text-align: left !important;
+  padding: 0.5rem !important;
+}
+
+.list-card-img {
+  width: 60px !important;
+  height: 60px !important;
+  margin-bottom: 0 !important;
+  margin-right: 1rem;
+  border-radius: 6px !important;
+}
+
+.list-card-song .list-card-img {
+  width: 48px !important;
+  height: 48px !important;
+}
+
+.list-card-info {
+  flex: 1;
+  overflow: hidden;
+}
+
+.list-card-info .card-title,
+.list-card-info .card-subtitle {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 /* Grid layout for cards */
 .grid {
   display: grid;
@@ -184,37 +240,109 @@ p {
 }
 
 /* Bottom Nav */
+.bottom-nav-container {
+  position: fixed;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  height: 0;
+  z-index: 1000;
+  pointer-events: none;
+}
+
 .bottom-nav {
   position: fixed;
   bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 90%;
+  left: 20px;
+  width: calc(100% - 110px);
   max-width: 400px;
   height: 70px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  z-index: 100;
-  border-radius: 35px;
-  padding: 0;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
   background: var(--nav-bg);
   backdrop-filter: blur(40px);
   -webkit-backdrop-filter: blur(40px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(150, 150, 150, 0.2);
+  border-radius: 35px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 1rem;
+  transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+  overflow: hidden;
+  pointer-events: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
-.dark .bottom-nav {
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+.bottom-nav.shrunk {
+  width: 70px;
+  padding: 0;
+  border-radius: 35px;
+  justify-content: center;
+  cursor: pointer;
+  left: 20px;
+  transform: translateX(0);
+}
+
+.floating-search-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  height: 70px;
+  width: 70px;
+  border-radius: 35px;
+  background: var(--nav-bg);
+  backdrop-filter: blur(40px);
+  -webkit-backdrop-filter: blur(40px);
+  border: 1px solid rgba(150, 150, 150, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+  overflow: hidden;
+  pointer-events: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.floating-search-container.expanded {
+  width: calc(100% - 110px);
+  max-width: 400px;
+  border-radius: 20px;
+  padding: 0 1rem;
+  justify-content: flex-start;
+}
+
+.floating-search-btn {
+  background: none;
+  border: none;
+  color: var(--text-color);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.floating-search-input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  color: var(--text-color);
+  font-size: 1.1rem;
+  outline: none;
+}
+
+.dark .bottom-nav,
+.dark .floating-search-container {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 .nav-indicator {
   position: absolute;
-  top: 10%;
-  left: 0;
-  width: 20%;
-  height: 80%;
+  top: 10px;
+  left: 1rem;
+  width: calc((100% - 2rem) / 4);
+  height: 50px;
   background: var(--text-color);
   opacity: 0.1;
   border-radius: 25px;
@@ -255,7 +383,6 @@ p {
 .mini-player {
   position: fixed;
   bottom: 100px;
-  /* Above nav */
   left: 1rem;
   right: 1rem;
   height: 60px;
@@ -273,7 +400,6 @@ p {
   transition: transform 0.2s ease;
   margin-bottom: env(safe-area-inset-bottom);
 }
-
 .dark .mini-player {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }

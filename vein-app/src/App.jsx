@@ -9,6 +9,8 @@ import Search from './pages/Search';
 import Library from './pages/Library';
 import CreatePlaylist from './pages/CreatePlaylist';
 import Artists from './pages/Artists';
+import Category from './pages/Category';
+import Collection from './pages/Collection';
 import { Moon, Sun, User, Download } from 'lucide-react';
 
 function App() {
@@ -164,42 +166,33 @@ function App() {
         </div>
       )}
 
-      <header className="app-header" style={{ padding: '1.5rem' }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem' }}>
-          <img src="/Listn.png" alt="Logo" style={{ width: '48px', height: '48px', borderRadius: '8px' }} />
-        </div>
-        <div style={{ display: 'flex', gap: '0.5rem' }}>
-          <button 
-            className="theme-toggle" 
-            onClick={() => { setTempName(userName); setShowWelcomeModal(true); }}
-            aria-label="Profile"
-            style={{ 
-              padding: profilePic ? '0' : '0.5rem', 
-              overflow: 'hidden',
-              width: '50px',
-              height: '50px',
-              borderRadius: '50%',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              flexShrink: 0
-            }}
-          >
-            {profilePic ? (
-              <img src={profilePic} alt="Profile" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-            ) : (
-              <User size={24} color="var(--accent-color)" />
-            )}
-          </button>
-          <button 
-            className="theme-toggle" 
-            onClick={() => setIsDark(!isDark)}
-            aria-label="Toggle theme"
-          >
-            {isDark ? <Sun size={24} color="var(--accent-color)" /> : <Moon size={24} color="var(--accent-color)" />}
-          </button>
-        </div>
-      </header>
+      <div style={{ position: 'fixed', top: '20px', right: '20px', zIndex: 1000 }}>
+        <button 
+          className="theme-toggle" 
+          onClick={() => { setTempName(userName); setShowWelcomeModal(true); }}
+          aria-label="Profile"
+          style={{ 
+            padding: profilePic ? '0' : '0.5rem', 
+            overflow: 'hidden',
+            width: '40px',
+            height: '40px',
+            borderRadius: '50%',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            flexShrink: 0,
+            backgroundColor: 'var(--card-bg)',
+            boxShadow: '0 4px 12px rgba(0,0,0,0.1)',
+            border: '1px solid rgba(255,255,255,0.1)'
+          }}
+        >
+          {profilePic ? (
+            <img src={profilePic} alt="Profile" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+          ) : (
+            <User size={20} color="var(--accent-color)" />
+          )}
+        </button>
+      </div>
 
       {showWelcomeModal && (
         <div className="modal-overlay">
@@ -246,6 +239,8 @@ function App() {
           <Route path="/library" element={<Library />} />
           <Route path="/artists" element={<Artists />} />
           <Route path="/create" element={<CreatePlaylist />} />
+          <Route path="/category/:id" element={<Category />} />
+          <Route path="/collection/:type/:id" element={<Collection />} />
         </Routes>
       </main>
 

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { usePlayer } from '../context/PlayerContext';
 import SongList from '../components/SongList';
 import { searchSongs } from '../utils/api';
@@ -6,9 +7,8 @@ import { classicQueries, hindiQueries, bengaliQueries, classicalQueries, rapQuer
 import { Loader, ArrowLeft, TrendingUp, Film } from 'lucide-react';
 
 export default function Home() {
+  const navigate = useNavigate();
   const { allSongs, playSong } = usePlayer();
-  const [selectedCategory, setSelectedCategory] = useState(null);
-  const [categoryLoading, setCategoryLoading] = useState(false);
   const [userName, setUserName] = useState('');
   const [greeting, setGreeting] = useState('');
 
@@ -109,96 +109,9 @@ export default function Home() {
     { id: 'hindi', label: 'Hindi Songs', subtitle: 'Latest & Classics', queries: hindiQueries, excludeLocal: true }
   ];
 
-  const handleCategoryClick = async (cat) => {
-    setCategoryLoading(true);
-    setSelectedCategory({ ...cat, songs: [] });
-
-    const apiSongs = [];
-    const apiSeenTitle = new Set();
-
-    if (cat.queries) {
-      // Pick 50 random queries from the given list
-      const shuffled = [...cat.queries].sort(() => 0.5 - Math.random());
-      const selectedQueries = shuffled.slice(0, 50);
-      
-      const fetchPromises = selectedQueries.map(q => 
-        searchSongs(q, 1).then(res => res[0]).catch(() => null)
-      );
-      const results = await Promise.all(fetchPromises);
-      
-      for (const s of results) {
-        if (!s) continue;
-        const baseTitle = s.title.replace(/\s*[\(\[].*?[\)\]]\s*/g, '').toLowerCase().trim();
-        if (!apiSeenTitle.has(baseTitle)) {
-          apiSeenTitle.add(baseTitle);
-          apiSongs.push(s);
-        }
-      }
-    } else {
-      // Fetch a larger pool from API to account for duplicates
-      const rawApiSongs = await searchSongs(cat.query, 50);
-
-      for (const s of rawApiSongs) {
-        if (apiSongs.length >= 15) break; // Keep only 15 unique songs
-        // Strip out (From "Movie") or [Remix] to improve deduplication
-        const baseTitle = s.title.replace(/\s*[\(\[].*?[\)\]]\s*/g, '').toLowerCase().trim();
-        if (!apiSeenTitle.has(baseTitle)) {
-          apiSeenTitle.add(baseTitle);
-          apiSongs.push(s);
-        }
-      }
-    }
-
-    // Filter local songs by genre/mood keywords or language
-    let localFiltered = [];
-    if (!cat.excludeLocal) {
-      const localKeywords = cat.localKeywords || [];
-      localFiltered = allSongs.filter(s => {
-        const genreMatch = localKeywords.some(k => s.genre?.includes(k));
-        const moodMatch = s.moods && s.moods.some(m => localKeywords.includes(m));
-        const languageMatch = cat.language && s.language === cat.language;
-        return genreMatch || moodMatch || languageMatch;
-      });
-    }
-
-    // Merge: API songs first, then local songs (deduplicate by title+artist)
-    const seen = new Set(apiSongs.map(s => `${s.title.toLowerCase()}-${s.artist.toLowerCase()}`));
-    const uniqueLocal = localFiltered.filter(s => {
-      const key = `${s.title.toLowerCase()}-${s.artist.toLowerCase()}`;
-      if (seen.has(key)) return false;
-      seen.add(key);
-      return true;
-    });
-
-    setSelectedCategory({ ...cat, songs: [...apiSongs, ...uniqueLocal] });
-    setCategoryLoading(false);
+  const handleCategoryClick = (cat) => {
+    navigate(`/category/${cat.id}`);
   };
-
-  if (selectedCategory) {
-    return (
-      <div className="container">
-        <button onClick={() => setSelectedCategory(null)} style={{ marginBottom: '1rem', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-          <ArrowLeft size={18} color="var(--accent-color)" /> Back
-        </button>
-        <h2 style={{ marginBottom: '0.25rem' }}>{selectedCategory.label}</h2>
-        {selectedCategory.subtitle && (
-          <p style={{ marginBottom: '1.5rem', fontSize: '0.85rem' }}>{selectedCategory.subtitle}</p>
-        )}
-        <p style={{ fontSize: '0.8rem', color: '#888', marginBottom: '1.5rem' }}>
-          {selectedCategory.songs.length} songs
-        </p>
-        {categoryLoading ? (
-          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.5rem', color: '#888', padding: '3rem 0' }}>
-            <Loader size={18} className="spin" /> Loading {selectedCategory.label} songs...
-          </div>
-        ) : selectedCategory.songs.length > 0 ? (
-          <SongList songs={selectedCategory.songs} listName={selectedCategory.label} />
-        ) : (
-          <div style={{ textAlign: 'center', color: '#888', padding: '3rem 0' }}>No songs found</div>
-        )}
-      </div>
-    );
-  }
 
   // Recommended: random slice from local library
   const recommendedSongs = allSongs.slice(0, 8);

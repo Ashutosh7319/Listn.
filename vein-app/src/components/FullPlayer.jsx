@@ -1,12 +1,33 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { usePlayer } from '../context/PlayerContext';
-import { Play, Pause, SkipBack, SkipForward, Shuffle, ChevronDown } from 'lucide-react';
+import { Play, Pause, SkipBack, SkipForward, Shuffle, ChevronDown, MessageSquare } from 'lucide-react';
+import { fetchLyrics } from '../utils/api';
 
 export default function FullPlayer({ isOpen, onClose }) {
   const { 
     currentSong, isPlaying, togglePlay, nextSong, prevSong, 
     progress, duration, seek, isShuffle, toggleShuffle 
   } = usePlayer();
+
+  const [showLyrics, setShowLyrics] = useState(false);
+  const [lyrics, setLyrics] = useState(null);
+  const [lyricsLoading, setLyricsLoading] = useState(false);
+
+  useEffect(() => {
+    // Reset lyrics state when song changes
+    setShowLyrics(false);
+    setLyrics(null);
+  }, [currentSong]);
+
+  useEffect(() => {
+    if (showLyrics && !lyrics && currentSong?.id) {
+      setLyricsLoading(true);
+      fetchLyrics(currentSong.id).then(res => {
+        setLyrics(res);
+        setLyricsLoading(false);
+      });
+    }
+  }, [showLyrics, currentSong]);
 
   if (!currentSong) return null;
 
@@ -36,6 +57,28 @@ export default function FullPlayer({ isOpen, onClose }) {
         <div className="full-title">{currentSong.title}</div>
         <div className="full-artist">{currentSong.artist}</div>
       </div>
+
+      {showLyrics && (
+        <div className="lyrics-container glass" style={{
+          position: 'absolute', top: '15%', left: '5%', right: '5%', bottom: '25%', 
+          borderRadius: '20px', padding: '1.5rem', overflowY: 'auto', zIndex: 10,
+          background: 'rgba(0,0,0,0.4)', backdropFilter: 'blur(30px)'
+        }}>
+          {lyricsLoading ? (
+            <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%', color: '#ccc'}}>
+              Loading lyrics...
+            </div>
+          ) : lyrics ? (
+            <div style={{ whiteSpace: 'pre-line', fontSize: '1.3rem', lineHeight: '2rem', fontWeight: 600, color: '#fff', textShadow: '0 2px 10px rgba(0,0,0,0.5)' }}>
+              {lyrics}
+            </div>
+          ) : (
+            <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%', color: '#ccc'}}>
+              Lyrics not available for this track.
+            </div>
+          )}
+        </div>
+      )}
 
       <div className="progress-container" onClick={(e) => {
         const rect = e.currentTarget.getBoundingClientRect();
@@ -70,7 +113,13 @@ export default function FullPlayer({ isOpen, onClose }) {
         <button className="control-btn" onClick={nextSong}>
           <SkipForward size={28} fill="currentColor" />
         </button>
-        <div style={{width: 48}}></div> {/* Spacer for balance */}
+        <button 
+          className="control-btn" 
+          onClick={() => setShowLyrics(!showLyrics)}
+          style={{ color: showLyrics ? 'var(--accent-color)' : '#888' }}
+        >
+          <MessageSquare size={24} />
+        </button>
       </div>
     </div>
   );
